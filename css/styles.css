@@ -121,6 +121,13 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: #343a40;
 }
 
+.project-image {
+    max-width: 400px; /* Ajustez selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    margin-bottom: 1rem; /* Espacement en bas */
+    border-radius: 8px; /* Coins arrondis si souhaité */
+}
+
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
 }
@@ -308,6 +315,8 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  max-width: 50%;
+  height: auto;
 }
 
 table {
